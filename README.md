@@ -25,7 +25,6 @@ Android News Application built using **XML layouts** and **Kotlin**.
 - Home
 - Categories
 - Article Details
-- BookMarking
 
 ## Author
 Mohamed Sanour
