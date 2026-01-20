@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.newsapp.ui.screen.ThirdScreen">
+
+    <ImageView
+        android:id="@+id/onBoarding3"
+        android:layout_width="428dp"
+        android:layout_height="584dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/onboarding3"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Lorem Ipsum is simply \ndummy"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBoarding3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum is simply dummy text of\nthe printing and typesetting industry."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginStart="24dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finishBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/blue"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Back"
+        android:textColor="@color/grey_dot"
+        android:layout_marginEnd="8dp"
+        style="@style/Theme.AppCompat"
+        app:layout_constraintBottom_toBottomOf="@id/finishBtn"
+        app:layout_constraintEnd_toStartOf="@+id/finishBtn"
+        app:layout_constraintTop_toTopOf="@+id/finishBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

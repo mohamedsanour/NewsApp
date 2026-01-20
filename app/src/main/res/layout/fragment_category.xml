@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newsapp.ui.fragment.CategoryFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Choose your Topics"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        android:textSize="16sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nationalBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="National"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/internationalBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="International"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toEndOf="@id/nationalBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sportBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Sport"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toEndOf="@id/internationalBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lifeStyleBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="116dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="LifeStyle"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@id/nationalBtn"
+        app:layout_constraintTop_toBottomOf="@id/nationalBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/businessBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Business"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/lifeStyleBtn"
+        app:layout_constraintTop_toBottomOf="@id/internationalBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/healthBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Health"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/businessBtn"
+        app:layout_constraintTop_toBottomOf="@id/sportBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fashionBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Fashion"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@id/nationalBtn"
+        app:layout_constraintTop_toBottomOf="@id/lifeStyleBtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/technologyBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Technology"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/fashionBtn"
+        app:layout_constraintTop_toBottomOf="@id/lifeStyleBtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/scienceBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Science"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@id/fashionBtn"
+        app:layout_constraintTop_toBottomOf="@id/fashionBtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/artBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="73dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Art"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/scienceBtn"
+        app:layout_constraintTop_toBottomOf="@id/fashionBtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/politicsBtn"
+        style="@style/Theme.AppCompat"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:background="@drawable/category_bg"
+        android:text="Politics"
+        android:textStyle="bold"
+        android:textColor="@color/category_text_selector"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@id/artBtn"
+        app:layout_constraintTop_toBottomOf="@id/fashionBtn"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

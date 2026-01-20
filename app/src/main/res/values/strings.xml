@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stay Updated</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username<font color="#FF0000">*</font></string>
+    <string name="password">password<font color="#FF0000">*</font></string>
+    <string name="don_t_have_an_account_sign_up">don’t have an account ? <font color="#1877F2"><b>Sign Up</b></font></string>
+    <string name="don_t_have_an_account_login">don’t have an account ? <font color="#1877F2"><b>Login</b></font></string>
+</resources>
