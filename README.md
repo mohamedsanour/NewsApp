@@ -16,6 +16,7 @@ Android News Application built using **XML layouts** and **Kotlin**.
 - Retrofit
 - RecyclerView
 - ViewModel & LiveData
+- Room Database
 
 ## API
 - News API
@@ -24,7 +25,7 @@ Android News Application built using **XML layouts** and **Kotlin**.
 - Home
 - Categories
 - Article Details
-- Settings
+- BookMarking
 
 ## Author
 Mohamed Sanour
